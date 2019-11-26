@@ -18,7 +18,7 @@ class EmbeddedMysqlExtension {
     private static final String EMPTY_STRING = ""
     private static final int DEFAULT_MYSQL_PORT = 3306
     private static final String DEFAULT_USERNAME = "user"
-    private static final Version DEFAULT_VERSION = v5_7_latest
+    private static final Version DEFAULT_VERSION = v8_latest
     private static final Charset DEFAULT_CHARSET = Charset.defaults()
     private static final int DEFAULT_TIMEOUT_SECONDS = 30
     private static final String DEFAULT_TEMP_DIR = "build/mysql-temp/"
