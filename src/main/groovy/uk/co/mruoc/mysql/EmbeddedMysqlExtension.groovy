@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit
 import static com.wix.mysql.EmbeddedMysql.anEmbeddedMysql
 import static com.wix.mysql.config.DownloadConfig.aDownloadConfig
 import static com.wix.mysql.config.MysqldConfig.aMysqldConfig
-import static com.wix.mysql.distribution.Version.v5_7_latest
+import static com.wix.mysql.distribution.Version.v8_latest
 
 class EmbeddedMysqlExtension {
 

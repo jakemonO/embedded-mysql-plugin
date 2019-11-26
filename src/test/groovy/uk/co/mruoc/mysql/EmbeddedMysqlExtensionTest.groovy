@@ -3,7 +3,7 @@ package uk.co.mruoc.mysql
 import org.junit.Test
 
 import static com.wix.mysql.distribution.Version.v5_6_latest
-import static com.wix.mysql.distribution.Version.v5_7_latest
+import static com.wix.mysql.distribution.Version.v8_latest
 import static org.assertj.core.api.Assertions.assertThat
 import static org.assertj.core.api.Assertions.catchThrowable
 
@@ -14,7 +14,7 @@ class EmbeddedMysqlExtensionTest {
     private static final def URL = "jdbc:mysql://localhost:" + OVERRIDE_PORT + "/" + DATABASE_NAME
 
     private static final def DEFAULT_USERNAME = "user"
-    private static final def DEFAULT_VERSION = v5_7_latest
+    private static final def DEFAULT_VERSION = v8_latest
     private static final def DEFAULT_PORT = 3306
     private static final def DEFAULT_TIMEOUT_SECONDS = 30
     private static final def DEFAULT_TEMP_DIR = 'build/mysql-temp/'
